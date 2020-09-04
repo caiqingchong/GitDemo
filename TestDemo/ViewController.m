@@ -97,12 +97,9 @@
                     [formatterOld setDateFormat:@"MM月dd日 HH:mm"];
                     return [formatterOld stringFromDate:oldTimeDate];
                 }else{
-//                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
                     [formatterOld setDateFormat:@"YYYY年MM月dd日 HH:mm"];
                     return [formatterOld stringFromDate:oldTimeDate];
                 }
-//                [formatter setDateFormat:@"MM月dd日 HH:mm"];
-//                return [formatter stringFromDate:oldTimeDate];
             }
             
             return showTime;
