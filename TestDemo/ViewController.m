@@ -27,11 +27,8 @@
     
     _imgView = [[UIImageView alloc] initWithFrame:CGRectMake(250, 350, 19, 19)];
     _imgView.image = [UIImage imageNamed:@"img_0.png"];
-    [self.view addSubview:_imgView];
-    
-    
+    [self.view addSubview:_imgView];    
     //判断当前日期是否属今年
-//
     double time = 1566268369000;
     NSLog(@"[self timeDate:time]:%@",[self timeDate:time]);
     
@@ -57,14 +54,11 @@
     _imgView.image = [UIImage imageNamed:arrImg[2]];
 }
 
-
-
 /**
  *  @return 刚刚  几分钟前  几小时前  几天前  fromat
  */
 -(NSString *)timeDate:(double)date {
     if (date) {
-//        double msgtime = [date timeIntervalSince1970];
         double msgtime = date/1000;
         NSDate *date_now = [NSDate date];
         double nowtime = [date_now timeIntervalSince1970];
@@ -88,21 +82,16 @@
                 [formatterOld setDateFormat:@"yyyy"];
                 NSString *oldYear = [formatterOld stringFromDate:oldTimeDate];
                 
-//                NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
                 [formatterOld setDateFormat:@"yyyy"];
                 NSString *currentYear=[formatterOld stringFromDate:date_now];
                 NSLog(@"~~~~~~~~~~oldYear:%@,currentYear：%@",oldYear,currentYear);
                 if ([oldYear isEqualToString:currentYear]) {
-//                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
                     [formatterOld setDateFormat:@"MM月dd日 HH:mm"];
                     return [formatterOld stringFromDate:oldTimeDate];
                 }else{
-//                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
                     [formatterOld setDateFormat:@"YYYY年MM月dd日 HH:mm"];
                     return [formatterOld stringFromDate:oldTimeDate];
                 }
-//                [formatter setDateFormat:@"MM月dd日 HH:mm"];
-//                return [formatter stringFromDate:oldTimeDate];
             }
             
             return showTime;

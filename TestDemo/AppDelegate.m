@@ -19,8 +19,7 @@
     // Override point for customization after application launch.
     
    
-    //设置时间格式  1598544000000
-//    double time =1598544000000;
+   
     NSDate* dat = [NSDate dateWithTimeIntervalSinceNow:0];
        NSTimeInterval a=[dat timeIntervalSince1970];
        NSString *timeString = [NSString stringWithFormat:@"%0.0f", a];//转为字符型
