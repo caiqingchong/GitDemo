@@ -16,6 +16,10 @@
 		040E572424D944940027006D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E572324D944940027006D /* main.m */; };
 		040E572E24D944940027006D /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E572D24D944940027006D /* TestDemoTests.m */; };
 		040E573924D944940027006D /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E573824D944940027006D /* TestDemoUITests.m */; };
+		04E135E424ED4D1F0075EAA3 /* img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E135E124ED4D1E0075EAA3 /* img_1.png */; };
+		04E135E524ED4D1F0075EAA3 /* img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E135E224ED4D1E0075EAA3 /* img_0.png */; };
+		04E135E624ED4D1F0075EAA3 /* img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E135E324ED4D1F0075EAA3 /* img_2.png */; };
+		04E135E924EE28770075EAA3 /* SuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E135E824EE28760075EAA3 /* SuspensionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,11 @@
 		040E573424D944940027006D /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040E573824D944940027006D /* TestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITests.m; sourceTree = "<group>"; };
 		040E573A24D944940027006D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E135E124ED4D1E0075EAA3 /* img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_1.png; sourceTree = "<group>"; };
+		04E135E224ED4D1E0075EAA3 /* img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_0.png; sourceTree = "<group>"; };
+		04E135E324ED4D1F0075EAA3 /* img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_2.png; sourceTree = "<group>"; };
+		04E135E724EE28760075EAA3 /* SuspensionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspensionView.h; sourceTree = "<group>"; };
+		04E135E824EE28760075EAA3 /* SuspensionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +113,17 @@
 		040E571024D9448B0027006D /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04E135E324ED4D1F0075EAA3 /* img_2.png */,
+				04E135E124ED4D1E0075EAA3 /* img_1.png */,
+				04E135E224ED4D1E0075EAA3 /* img_0.png */,
 				040E571124D9448B0027006D /* AppDelegate.h */,
 				040E571224D9448B0027006D /* AppDelegate.m */,
 				040E571424D9448B0027006D /* SceneDelegate.h */,
 				040E571524D9448B0027006D /* SceneDelegate.m */,
 				040E571724D9448B0027006D /* ViewController.h */,
 				040E571824D9448B0027006D /* ViewController.m */,
+				04E135E724EE28760075EAA3 /* SuspensionView.h */,
+				04E135E824EE28760075EAA3 /* SuspensionView.m */,
 				040E571A24D9448B0027006D /* Main.storyboard */,
 				040E571D24D944940027006D /* Assets.xcassets */,
 				040E571F24D944940027006D /* LaunchScreen.storyboard */,
@@ -241,6 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				040E572124D944940027006D /* LaunchScreen.storyboard in Resources */,
+				04E135E524ED4D1F0075EAA3 /* img_0.png in Resources */,
+				04E135E624ED4D1F0075EAA3 /* img_2.png in Resources */,
+				04E135E424ED4D1F0075EAA3 /* img_1.png in Resources */,
 				040E571E24D944940027006D /* Assets.xcassets in Resources */,
 				040E571C24D9448B0027006D /* Main.storyboard in Resources */,
 			);
@@ -269,6 +286,7 @@
 			files = (
 				040E571924D9448B0027006D /* ViewController.m in Sources */,
 				040E571324D9448B0027006D /* AppDelegate.m in Sources */,
+				04E135E924EE28770075EAA3 /* SuspensionView.m in Sources */,
 				040E572424D944940027006D /* main.m in Sources */,
 				040E571624D9448B0027006D /* SceneDelegate.m in Sources */,
 			);
