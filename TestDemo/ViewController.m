@@ -27,11 +27,8 @@
     
     _imgView = [[UIImageView alloc] initWithFrame:CGRectMake(250, 350, 19, 19)];
     _imgView.image = [UIImage imageNamed:@"img_0.png"];
-    [self.view addSubview:_imgView];
-    
-    
+    [self.view addSubview:_imgView];    
     //判断当前日期是否属今年
-//
     double time = 1566268369000;
     NSLog(@"[self timeDate:time]:%@",[self timeDate:time]);
     
