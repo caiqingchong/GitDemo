@@ -88,12 +88,10 @@
                 [formatterOld setDateFormat:@"yyyy"];
                 NSString *oldYear = [formatterOld stringFromDate:oldTimeDate];
                 
-//                NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
                 [formatterOld setDateFormat:@"yyyy"];
                 NSString *currentYear=[formatterOld stringFromDate:date_now];
                 NSLog(@"~~~~~~~~~~oldYear:%@,currentYear：%@",oldYear,currentYear);
                 if ([oldYear isEqualToString:currentYear]) {
-//                    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
                     [formatterOld setDateFormat:@"MM月dd日 HH:mm"];
                     return [formatterOld stringFromDate:oldTimeDate];
                 }else{
