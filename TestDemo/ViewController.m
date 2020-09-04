@@ -57,14 +57,11 @@
     _imgView.image = [UIImage imageNamed:arrImg[2]];
 }
 
-
-
 /**
  *  @return 刚刚  几分钟前  几小时前  几天前  fromat
  */
 -(NSString *)timeDate:(double)date {
     if (date) {
-//        double msgtime = [date timeIntervalSince1970];
         double msgtime = date/1000;
         NSDate *date_now = [NSDate date];
         double nowtime = [date_now timeIntervalSince1970];
