@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SuspensionView.h"
+
 @interface ViewController ()
 @property (nonatomic,retain) UIImageView *imgView;
 @end
@@ -128,6 +129,9 @@
     return timeInteval;
 }
 
+- (void)addClick{
+    //莫道君行早
+}
 
 
 
