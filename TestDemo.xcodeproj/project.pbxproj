@@ -20,6 +20,7 @@
 		04E135E524ED4D1F0075EAA3 /* img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E135E224ED4D1E0075EAA3 /* img_0.png */; };
 		04E135E624ED4D1F0075EAA3 /* img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E135E324ED4D1F0075EAA3 /* img_2.png */; };
 		04E135E924EE28770075EAA3 /* SuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E135E824EE28760075EAA3 /* SuspensionView.m */; };
+		89622FDB26848E200008DD3B /* azViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89622FDA26848E200008DD3B /* azViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		04E135E324ED4D1F0075EAA3 /* img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_2.png; sourceTree = "<group>"; };
 		04E135E724EE28760075EAA3 /* SuspensionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspensionView.h; sourceTree = "<group>"; };
 		04E135E824EE28760075EAA3 /* SuspensionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionView.m; sourceTree = "<group>"; };
+		89622FD926848E200008DD3B /* azViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = azViewController.h; sourceTree = "<group>"; };
+		89622FDA26848E200008DD3B /* azViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = azViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				040E571524D9448B0027006D /* SceneDelegate.m */,
 				040E571724D9448B0027006D /* ViewController.h */,
 				040E571824D9448B0027006D /* ViewController.m */,
+				89622FD926848E200008DD3B /* azViewController.h */,
+				89622FDA26848E200008DD3B /* azViewController.m */,
 				04E135E724EE28760075EAA3 /* SuspensionView.h */,
 				04E135E824EE28760075EAA3 /* SuspensionView.m */,
 				040E571A24D9448B0027006D /* Main.storyboard */,
@@ -287,6 +292,7 @@
 				040E571924D9448B0027006D /* ViewController.m in Sources */,
 				040E571324D9448B0027006D /* AppDelegate.m in Sources */,
 				04E135E924EE28770075EAA3 /* SuspensionView.m in Sources */,
+				89622FDB26848E200008DD3B /* azViewController.m in Sources */,
 				040E572424D944940027006D /* main.m in Sources */,
 				040E571624D9448B0027006D /* SceneDelegate.m in Sources */,
 			);

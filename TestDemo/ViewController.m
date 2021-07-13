@@ -13,7 +13,7 @@
 @end
 
 // 测试sourceTree的管理
-//sourceTree添加
+//sourceTree添加fenzhi
 @implementation ViewController
 //能不能在为你跳支舞
 - (void)viewDidLoad {
@@ -34,6 +34,7 @@
     double time = 1566268369000;
     NSLog(@"[self timeDate:time]:%@",[self timeDate:time]);
     
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"zhang" object:nil];    
     
 }
 - (void)changeMyCommentOne{
