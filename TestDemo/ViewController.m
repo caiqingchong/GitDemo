@@ -13,7 +13,7 @@
 @end
 
 // 测试sourceTree的管理
-//sourceTree添加fenzhi
+//sourceTree添加fenzhi  reset hard数据
 @implementation ViewController
 //能不能在为你跳支舞
 - (void)viewDidLoad {
